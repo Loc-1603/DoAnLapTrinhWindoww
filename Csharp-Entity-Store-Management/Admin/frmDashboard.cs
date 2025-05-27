@@ -20,5 +20,22 @@ namespace Csharp_Entity_Store_Management
         {
             InitializeComponent();
         }
+        private void frmDashboard_Load(object sender, EventArgs e)
+        {
+            clickedButton(index);
+            lblUsername.Text = "Xin chào: " + user.fullname + " !";
+
+            panel.Visible = false;
+
+            loadPanel();
+            frmStatistics frm = new frmStatistics();
+            frm.TopLevel = false;
+            panel.Controls.Add(frm);
+            //panel.AutoScroll = true;
+            panel.BorderStyle = BorderStyle.None;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+        }
     }
 }
