@@ -171,4 +171,42 @@ namespace Csharp_Entity_Store_Management
             this.btnSuppilerManagement.Text = "Quản lý nhà cung cấp";
             this.btnSuppilerManagement.UseVisualStyleBackColor = false;
             this.btnSuppilerManagement.Click += new System.EventHandler(this.btnSuppilerManagement_Click);
+        // 
+            // btnProductManagement
+            // 
+            this.btnProductManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnProductManagement.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnProductManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnProductManagement.FlatAppearance.BorderSize = 0;
+            this.btnProductManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductManagement.ForeColor = System.Drawing.Color.White;
+            this.btnProductManagement.Location = new System.Drawing.Point(0, 84);
+            this.btnProductManagement.Margin = new System.Windows.Forms.Padding(0);
+            this.btnProductManagement.Name = "btnProductManagement";
+            this.btnProductManagement.Size = new System.Drawing.Size(222, 84);
+            this.btnProductManagement.TabIndex = 0;
+            this.btnProductManagement.Text = "Quản lý sản phẩm";
+            this.btnProductManagement.UseVisualStyleBackColor = false;
+            this.btnProductManagement.Click += new System.EventHandler(this.btnProductManagement_Click);
+            // 
+            // btnStockInManagement
+            // 
+            this.btnStockInManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStockInManagement.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnStockInManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnStockInManagement.FlatAppearance.BorderSize = 0;
+            this.btnStockInManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStockInManagement.ForeColor = System.Drawing.Color.White;
+            this.btnStockInManagement.Location = new System.Drawing.Point(0, 420);
+            this.btnStockInManagement.Margin = new System.Windows.Forms.Padding(0);
+            this.btnStockInManagement.Name = "btnStockInManagement";
+            this.btnStockInManagement.Size = new System.Drawing.Size(222, 84);
+            this.btnStockInManagement.TabIndex = 0;
+            this.btnStockInManagement.Text = "Quản lý nhập kho";
+            this.btnStockInManagement.UseVisualStyleBackColor = false;
+            this.btnStockInManagement.Click += new System.EventHandler(this.btnStockInManagement_Click);
         }
