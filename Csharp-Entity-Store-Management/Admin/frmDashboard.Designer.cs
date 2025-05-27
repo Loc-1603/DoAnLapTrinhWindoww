@@ -247,4 +247,86 @@ namespace Csharp_Entity_Store_Management
             this.btnCategoryManagement.Text = "Quản lý danh mục";
             this.btnCategoryManagement.UseVisualStyleBackColor = false;
             this.btnCategoryManagement.Click += new System.EventHandler(this.btnCategoryManagement_Click);
-        }
+                   // 
+            // btnAccountManagement
+            // 
+            this.btnAccountManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAccountManagement.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnAccountManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnAccountManagement.FlatAppearance.BorderSize = 0;
+            this.btnAccountManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAccountManagement.ForeColor = System.Drawing.Color.White;
+            this.btnAccountManagement.Location = new System.Drawing.Point(0, 252);
+            this.btnAccountManagement.Margin = new System.Windows.Forms.Padding(0);
+            this.btnAccountManagement.Name = "btnAccountManagement";
+            this.btnAccountManagement.Size = new System.Drawing.Size(222, 84);
+            this.btnAccountManagement.TabIndex = 0;
+            this.btnAccountManagement.Text = "Quản lý tài khoản";
+            this.btnAccountManagement.UseVisualStyleBackColor = false;
+            this.btnAccountManagement.Click += new System.EventHandler(this.btnAccountManagement_Click);
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.Color.White;
+            this.lblUsername.Location = new System.Drawing.Point(780, 21);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(143, 32);
+            this.lblUsername.TabIndex = 1;
+            this.lblUsername.Text = "Xin chào!";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::Csharp_Entity_Store_Management.Properties.Resources.logoo;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(216, 68);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // frmDashboard
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1478, 742);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "frmDashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Quản lý cửa hàng";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmDashboard_Load);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Button btnDashboard;
+        private System.Windows.Forms.Button btnSuppilerManagement;
+        private System.Windows.Forms.Button btnProductManagement;
+        private System.Windows.Forms.Button btnStockInManagement;
+        private System.Windows.Forms.Button btnOrderManagement;
+        private System.Windows.Forms.Button btnCategoryManagement;
+        private System.Windows.Forms.Button btnAccountManagement;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.PictureBox pictureBox1;
+    }
+}
