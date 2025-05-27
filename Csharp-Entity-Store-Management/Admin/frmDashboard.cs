@@ -12,5 +12,13 @@ namespace Csharp_Entity_Store_Management
 {
     public partial class frmDashboard : Form
     {
+        private User user;
+        private int index = 1;
+        public User User { get => user; set => user = value; }
+
+        public frmDashboard()
+        {
+            InitializeComponent();
+        }
     }
 }
