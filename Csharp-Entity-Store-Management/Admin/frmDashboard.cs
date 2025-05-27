@@ -155,5 +155,27 @@ namespace Csharp_Entity_Store_Management
             frm.Closed += (s, args) => this.Close();
             frm.Show();
         }
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            frmDashboard_Load(sender, e);
+            defaultButton(index);
+            index = 1;
+            clickedButton(index);
+
+        }
+
+        private void defaultButton(int index)
+        {
+            switch (index)
+            {
+                case 1: btnDashboard.BackColor = Color.DodgerBlue; break;
+                case 2: btnProductManagement.BackColor = Color.DodgerBlue; break;
+                case 3: btnOrderManagement.BackColor = Color.DodgerBlue; break;
+                case 4: btnAccountManagement.BackColor = Color.DodgerBlue; break;
+                case 5: btnCategoryManagement.BackColor = Color.DodgerBlue; break;
+                case 6: btnStockInManagement.BackColor = Color.DodgerBlue; break;
+                case 7: btnSuppilerManagement.BackColor = Color.DodgerBlue; break;
+            }
+        }
     }
 }
