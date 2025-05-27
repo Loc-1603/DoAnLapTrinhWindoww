@@ -1,7 +1,4 @@
-﻿
-using System.Windows.Forms;
-
-namespace Csharp_Entity_Store_Management
+﻿namespace Csharp_Entity_Store_Management
 {
     partial class frmDashboard
     {
@@ -22,6 +19,7 @@ namespace Csharp_Entity_Store_Management
             }
             base.Dispose(disposing);
         }
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -47,12 +45,11 @@ namespace Csharp_Entity_Store_Management
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-        }
-        // 
+            // 
             // panel
             // 
-            this.panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel.Location = new System.Drawing.Point(222, 74);
             this.panel.Margin = new System.Windows.Forms.Padding(0);
@@ -63,8 +60,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(213)))), ((int)(((byte)(115)))));
             this.tableLayoutPanel1.ColumnCount = 2;
@@ -85,8 +82,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.DodgerBlue;
             this.tableLayoutPanel2.ColumnCount = 1;
@@ -117,8 +114,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // btnLogout
             // 
-            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLogout.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnLogout.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -133,11 +130,11 @@ namespace Csharp_Entity_Store_Management
             this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-         // 
+            // 
             // btnDashboard
             // 
-            this.btnDashboard.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnDashboard.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDashboard.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnDashboard.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -155,8 +152,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // btnSuppilerManagement
             // 
-            this.btnSuppilerManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnSuppilerManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSuppilerManagement.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnSuppilerManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -171,11 +168,11 @@ namespace Csharp_Entity_Store_Management
             this.btnSuppilerManagement.Text = "Quản lý nhà cung cấp";
             this.btnSuppilerManagement.UseVisualStyleBackColor = false;
             this.btnSuppilerManagement.Click += new System.EventHandler(this.btnSuppilerManagement_Click);
-        // 
+            // 
             // btnProductManagement
             // 
-            this.btnProductManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnProductManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnProductManagement.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnProductManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -193,8 +190,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // btnStockInManagement
             // 
-            this.btnStockInManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnStockInManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStockInManagement.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnStockInManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -212,8 +209,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // btnOrderManagement
             // 
-            this.btnOrderManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnOrderManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOrderManagement.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnOrderManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -231,8 +228,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // btnCategoryManagement
             // 
-            this.btnCategoryManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnCategoryManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCategoryManagement.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnCategoryManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -247,11 +244,11 @@ namespace Csharp_Entity_Store_Management
             this.btnCategoryManagement.Text = "Quản lý danh mục";
             this.btnCategoryManagement.UseVisualStyleBackColor = false;
             this.btnCategoryManagement.Click += new System.EventHandler(this.btnCategoryManagement_Click);
-                   // 
+            // 
             // btnAccountManagement
             // 
-            this.btnAccountManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnAccountManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAccountManagement.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnAccountManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -281,8 +278,8 @@ namespace Csharp_Entity_Store_Management
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::Csharp_Entity_Store_Management.Properties.Resources.logoo;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
@@ -312,6 +309,7 @@ namespace Csharp_Entity_Store_Management
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
+        }
 
         #endregion
 
