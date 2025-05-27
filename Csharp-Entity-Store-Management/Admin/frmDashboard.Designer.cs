@@ -209,4 +209,42 @@ namespace Csharp_Entity_Store_Management
             this.btnStockInManagement.Text = "Quản lý nhập kho";
             this.btnStockInManagement.UseVisualStyleBackColor = false;
             this.btnStockInManagement.Click += new System.EventHandler(this.btnStockInManagement_Click);
+            // 
+            // btnOrderManagement
+            // 
+            this.btnOrderManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOrderManagement.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnOrderManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnOrderManagement.FlatAppearance.BorderSize = 0;
+            this.btnOrderManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrderManagement.ForeColor = System.Drawing.Color.White;
+            this.btnOrderManagement.Location = new System.Drawing.Point(0, 168);
+            this.btnOrderManagement.Margin = new System.Windows.Forms.Padding(0);
+            this.btnOrderManagement.Name = "btnOrderManagement";
+            this.btnOrderManagement.Size = new System.Drawing.Size(222, 84);
+            this.btnOrderManagement.TabIndex = 0;
+            this.btnOrderManagement.Text = "Quản lý hoá đơn";
+            this.btnOrderManagement.UseVisualStyleBackColor = false;
+            this.btnOrderManagement.Click += new System.EventHandler(this.btnOrderManagement_Click);
+            // 
+            // btnCategoryManagement
+            // 
+            this.btnCategoryManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCategoryManagement.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCategoryManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnCategoryManagement.FlatAppearance.BorderSize = 0;
+            this.btnCategoryManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCategoryManagement.ForeColor = System.Drawing.Color.White;
+            this.btnCategoryManagement.Location = new System.Drawing.Point(0, 336);
+            this.btnCategoryManagement.Margin = new System.Windows.Forms.Padding(0);
+            this.btnCategoryManagement.Name = "btnCategoryManagement";
+            this.btnCategoryManagement.Size = new System.Drawing.Size(222, 84);
+            this.btnCategoryManagement.TabIndex = 0;
+            this.btnCategoryManagement.Text = "Quản lý danh mục";
+            this.btnCategoryManagement.UseVisualStyleBackColor = false;
+            this.btnCategoryManagement.Click += new System.EventHandler(this.btnCategoryManagement_Click);
         }
