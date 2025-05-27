@@ -132,5 +132,28 @@ namespace Csharp_Entity_Store_Management
             frm.Dock = DockStyle.Fill;
             frm.Show();
         }
+        private void btnSuppilerManagement_Click(object sender, EventArgs e)
+        {
+            defaultButton(index);
+            index = 7;
+            clickedButton(index);
+            loadPanel();
+            frmManagementSuppiler frm = new frmManagementSuppiler();
+            frm.TopLevel = false;
+            panel.Controls.Add(frm);
+            //panel.AutoScroll = true;
+            panel.BorderStyle = BorderStyle.None;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLogin frm = new frmLogin();
+            frm.Closed += (s, args) => this.Close();
+            frm.Show();
+        }
     }
 }
