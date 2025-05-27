@@ -86,5 +86,36 @@ namespace Csharp_Entity_Store_Management
             frm.Dock = DockStyle.Fill;
             frm.Show();
         }
+        private void btnAccountManagement_Click(object sender, EventArgs e)
+        {
+            defaultButton(index);
+            index = 4;
+            clickedButton(index);
+            loadPanel();
+            frmManagementAccount frm = new frmManagementAccount();
+            frm.TopLevel = false;
+            panel.Controls.Add(frm);
+            //panel.AutoScroll = true;
+            panel.BorderStyle = BorderStyle.None;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+        }
+
+        private void btnCategoryManagement_Click(object sender, EventArgs e)
+        {
+            defaultButton(index);
+            index = 5;
+            clickedButton(index);
+            loadPanel();
+            frmManagementCategory frm = new frmManagementCategory();
+            frm.TopLevel = false;
+            panel.Controls.Add(frm);
+            //panel.AutoScroll = true;
+            panel.BorderStyle = BorderStyle.None;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+        }
     }
 }
