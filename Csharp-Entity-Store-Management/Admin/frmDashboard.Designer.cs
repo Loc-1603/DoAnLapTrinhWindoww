@@ -133,4 +133,42 @@ namespace Csharp_Entity_Store_Management
             this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+         // 
+            // btnDashboard
+            // 
+            this.btnDashboard.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDashboard.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnDashboard.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.ForeColor = System.Drawing.Color.White;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(222, 84);
+            this.btnDashboard.TabIndex = 0;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.UseVisualStyleBackColor = false;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
+            // btnSuppilerManagement
+            // 
+            this.btnSuppilerManagement.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSuppilerManagement.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnSuppilerManagement.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnSuppilerManagement.FlatAppearance.BorderSize = 0;
+            this.btnSuppilerManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSuppilerManagement.ForeColor = System.Drawing.Color.White;
+            this.btnSuppilerManagement.Location = new System.Drawing.Point(0, 504);
+            this.btnSuppilerManagement.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSuppilerManagement.Name = "btnSuppilerManagement";
+            this.btnSuppilerManagement.Size = new System.Drawing.Size(222, 84);
+            this.btnSuppilerManagement.TabIndex = 0;
+            this.btnSuppilerManagement.Text = "Quản lý nhà cung cấp";
+            this.btnSuppilerManagement.UseVisualStyleBackColor = false;
+            this.btnSuppilerManagement.Click += new System.EventHandler(this.btnSuppilerManagement_Click);
         }
